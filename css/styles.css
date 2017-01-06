@@ -1,0 +1,49 @@
+#banner {
+  width: 100vw;
+  margin: 0px -15px;
+}
+
+/*About Section Styling*/
+
+
+/*Repo Index Styling*/
+.repolist {
+  width: 100vw;
+  margin: 0px -15px;
+  padding: 30px 30px 100px 10px;
+  background-image: url(../img/book-background.jpeg);
+  background-size: cover;
+}
+.repolist ul {
+  columns: 2;
+}
+.repolist li{
+  font-family: 'Rasa', serif;
+  padding: 5px 10px 0px 5px;
+  font-size: 1.5em;
+  list-style: none;
+}
+
+.repolist strong {
+  text-align: left;
+}
+
+.repolist a {
+  color: black;
+}
+
+.repolist a:visited {
+  color: black;
+}
+
+.repolist a:hover {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.repolist span {
+  font-size: .9em;
+  font-style: italic;
+  padding-right: 5px;
+  padding-left: 20px;
+}
