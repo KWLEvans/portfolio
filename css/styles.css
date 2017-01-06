@@ -1,5 +1,5 @@
 body {
-  background-color: darkgrey;
+  background-color: lightgrey;
 }
 
 #banner {
@@ -13,25 +13,32 @@ body {
   background-color: rgba(0, 0, 0, 0.5);;
   padding: 5px 20px;
   position: absolute;
-  left: 100px;
-  top: 200px;
+  right: 5%;
+  top: 1%;
+}
+
+.spacer {
+  height: 400px;
 }
 
 /*About Section Styling*/
 .about {
-  height: 350px;
+  height: 30%;
+  overflow: hidden;
+  padding-bottom: 6%;
+  font-family: serif;
 }
 
 .about p {
-  padding-top: 80px;
-  padding-right: 40px;
+  padding: 5% 0;
 }
 
-.badge {
+.prof-pic {
   height: 300px;
   width: 300px;
-  float: right;
+  margin-left: 10%;
   border-radius: 100%;
+  float: right;
   background-image: url(../img/me.jpg);
   background-size: cover;
 }
@@ -78,9 +85,15 @@ body {
   padding-left: 20px;
 }
 
+@media screen and (max-width:1008px) {
+  .repolist {
+    background-image: url(../img/book-background-half.jpeg);
+  }
+}
+
 /*Footer Styling*/
 footer {
   font-size: .8em;
   padding-top: 20px;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
 }
