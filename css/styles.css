@@ -10,7 +10,7 @@
 .repolist {
   width: 100vw;
   margin: 0px -15px;
-  padding: 30px 30px 100px 10px;
+  padding: 30px 30px 40px 10px;
   background-image: url(../img/book-background.jpeg);
   background-size: cover;
 }
@@ -19,7 +19,7 @@
 }
 .repolist li{
   font-family: 'Rasa', serif;
-  padding: 5px 10px 0px 5px;
+  padding: 5px 10px 20px 5px;
   font-size: 1.5em;
   list-style: none;
 }
@@ -46,4 +46,11 @@
   font-style: italic;
   padding-right: 5px;
   padding-left: 20px;
+}
+
+/*Footer Styling*/
+footer {
+  font-size: .8em;
+  padding-top: 20px;
+  border-top: 2px solid black;
 }
