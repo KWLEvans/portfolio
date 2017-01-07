@@ -38,19 +38,20 @@ body {
 /*Quotes section Styling*/
 .quotes {
   height: 80vh;
+  display: block;
 }
 
 .quotes div:nth-child(1) {
-  padding-top: 25%;
+  padding-top: 15%;
 }
 
 .quotes div:nth-child(2) {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 5%;
 }
 
 .quotes div:nth-child(3) {
-  padding-top: 45%;
+  padding-top: 20%;
 }
 
 blockquote {
