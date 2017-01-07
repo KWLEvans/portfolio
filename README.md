@@ -10,10 +10,10 @@
 * _Click index.html to view site in browser_
 
 ### Site Link
-_You can find my site on GitHub Pages [here](KWLEvans.github.io/portfolio)_
+_You can find my site on GitHub Pages [here](https://kwlevans.github.io/portfolio/)_
 
 ### Copyright and Licensing
 
 _This software is licensed under the MIT license_
 
-Copyright (c) 2017 **_Keith Evans_** 
+Copyright (c) 2017 **_Keith Evans_**
